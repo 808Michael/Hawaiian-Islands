@@ -1,0 +1,68 @@
+body {
+  background-image: url('Images/BG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.carousel {
+  margin: 60px auto 0;
+  max-width: 500px;
+}
+
+.carousel-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.carousel-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.carousel-item a:hover {
+  color: #0056b3;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
