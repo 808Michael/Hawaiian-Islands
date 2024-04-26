@@ -1,7 +1,41 @@
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
     background-image: url('Kahoolawe.jpeg');
     background-size: 450px 400px;
     background-repeat: no-repeat;
+    background-position: 0 0;
     font-family: Arial, sans-serif;
-    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-box {
+    position: absolute;
+    top: 0px;
+    left: 449px;
+    width: calc(100% - 100px);
+    border: 2px solid #2c3e50;
+    padding: 20px;
+    margin: 0;
+    background-color: #CCCCCC;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 20px;
 }

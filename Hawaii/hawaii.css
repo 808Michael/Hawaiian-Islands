@@ -1,15 +1,41 @@
-body {
-    background-image: url('Hawaii.jpg'), url('Hawaii_Location.png');
-    background-size: 450px 400px, 450px 400px;
-    background-repeat: no-repeat;
-    background-position: top left, bottom left;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
-    height: 800px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
+.container {
+    position: relative;
+    background-image: url('Hawaii.jpg');
+    background-size: 450px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body {
-    --background-size: 450px 400px;
-    background-size: var(--background-size), var(--background-size);
+.title-box {
+    position: absolute;
+    top: 0px;
+    left: 449px;
+    width: calc(100% - 100px);
+    border: 2px solid #2c3e50;
+    padding: 20px;
+    margin: 0;
+    background-color: #ff0000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 20px;
 }
