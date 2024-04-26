@@ -1,7 +1,15 @@
 body {
-    background-image: url('Hawaii.jpg');
-    background-size: 450px 400px;
+    background-image: url('Hawaii.jpg'), url('Hawaii_Location.png');
+    background-size: 450px 400px, 450px 400px;
     background-repeat: no-repeat;
+    background-position: top left, bottom left;
     font-family: Arial, sans-serif;
     color: #ffffff;
+    height: 800px;
+}
+
+
+body {
+    --background-size: 450px 400px;
+    background-size: var(--background-size), var(--background-size);
 }
