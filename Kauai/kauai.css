@@ -5,10 +5,10 @@ html, body {
 
 .container {
     position: relative;
-    background-image: url('Kauai.jpeg');
-    background-size: 450px 400px;
+    background-image: url('Kauai.jpeg'), url('Kauai_Location.png');
+    background-size: 450px 370px, 450px 380px; 
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 0, 0 100%;
     font-family: Arial, sans-serif;
     width: 100vw;
     height: 100vh;
@@ -21,7 +21,8 @@ html, body {
     position: absolute;
     top: 0px;
     left: 449px;
-    width: calc(100% - 100px);
+    width: calc(100% - 492px);
+    max-width: calc(100% - 100px);
     border: 2px solid #2c3e50;
     padding: 20px;
     margin: 0;
@@ -35,7 +36,20 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
     left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
