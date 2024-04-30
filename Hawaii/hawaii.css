@@ -3,30 +3,50 @@ html, body {
     padding: 0;
 }
 
-.container {
-    position: relative;
-    background-image: url('Hawaii.jpg'), url('Hawaii_Location.png');
-    background-size: 450px 370px, 450px 380px; 
-    background-repeat: no-repeat;
-    background-position: 0 0, 0 100%;
-    font-family: Arial, sans-serif;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .title-box {
     position: absolute;
-    top: 0px;
-    left: 449px;
-    width: calc(100% - 492px);
-    max-width: calc(100% - 100px);
+    top: 0;
+    left: 0;
+    width: 100vw;
     border: 2px solid #2c3e50;
     padding: 20px;
     margin: 0;
     background-color: #ff0000;
+    box-sizing: border-box;
+}
+
+.hawaii-image {
+    display: block;
+    margin-top: 107px;
+}
+
+.location-image {
+    position: absolute;
+    top: 107px;
+    left: 40%
+}
+
+.lehua-flower {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: 0px;
+}
+
+.waipio-valley {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.waipio-info {
+    position: relative;
+}
+
+.waipio-text {
+    position: absolute;
+    top: 100px;
+    left: 420px;
 }
 
 h1 {
@@ -39,18 +59,4 @@ h1 {
     position: relative;
     left: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    margin: 0;
-    font-size: 14px;
-    color: #2c3e50;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: absolute;
-    top: 18%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    width: 70%;
 }
