@@ -30,7 +30,7 @@ html, body {
     display: block;
     position: absolute;
     top: 107px;
-    right: 0px;
+    right: -15px;
 }
 
 .waipio-valley {
@@ -64,6 +64,55 @@ html, body {
 .mauna-kea-text {
     position: absolute;
     top: -250px;
+    left: 420px;
+}
+
+.volcano-image {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.volcano-info {
+    position: relative;
+}
+
+.volcano-text {
+    position: absolute;
+    top: 100px;
+    left: 420px;
+}
+
+
+.waterfalls-image {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.waterfalls-info {
+    position: relative;
+}
+
+.waterfalls-text {
+    position: absolute;
+    top: 100px;
+    left: 420px;
+}
+
+.liliuokalani-image {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.liliuokalani-info {
+    position: relative;
+}
+
+.liliuokalani-text {
+    position: absolute;
+    top: 100px;
     left: 420px;
 }
 
