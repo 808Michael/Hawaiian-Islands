@@ -44,6 +44,11 @@ html, body {
 }
 
 .waipio-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 100px;
     left: 420px;
@@ -62,6 +67,11 @@ html, body {
 }
 
 .mauna-kea-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: -250px;
     left: 420px;
@@ -78,11 +88,15 @@ html, body {
 }
 
 .volcano-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 100px;
     left: 420px;
 }
-
 
 .waterfalls-image {
     width: 400px;
@@ -95,6 +109,11 @@ html, body {
 }
 
 .waterfalls-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 100px;
     left: 420px;
@@ -111,6 +130,11 @@ html, body {
 }
 
 .liliuokalani-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 100px;
     left: 420px;
@@ -127,3 +151,14 @@ h1 {
     left: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion.active + .panel {
+    max-height: 500px;
+}
+
