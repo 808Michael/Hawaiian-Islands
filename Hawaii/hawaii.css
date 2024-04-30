@@ -49,6 +49,24 @@ html, body {
     left: 420px;
 }
 
+.mauna-kea {
+    width: 400px;
+    height: auto;
+    margin-top: 200px;
+    position: relative;
+    left: 0px;
+}
+
+.mauna-kea-info {
+    position: relative;
+}
+
+.mauna-kea-text {
+    position: absolute;
+    top: -250px;
+    left: 420px;
+}
+
 h1 {
     margin: 0;
     font-size: 3em;
