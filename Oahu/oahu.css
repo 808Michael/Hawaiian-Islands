@@ -1,7 +1,163 @@
-body {
-    background-image: url('Oahu.jpeg');
-    background-size: 450px 400px;
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.title-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    border: 2px solid #2c3e50;
+    padding: 20px;
+    margin: 0;
+    background-color: #Ffff00;
+    box-sizing: border-box;
+}
+
+.oahu-image {
+    display: block;
+    margin-top: 107px;
+}
+
+.location-image {
+    position: absolute;
+    top: 107px;
+    left: 40%
+}
+
+.ilima-plant {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: -15px;
+}
+
+.iolani-palace {
+    width: 400px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.iolani-palace-info {
+    position: relative;
+}
+
+.iolani-palace-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 330px;
+    left: 420px;
+}
+
+.diamond-head {
+    width: 400px;
+    height: auto;
+    margin-top: 200px;
+    position: relative;
+    left: 0px;
+}
+
+.diamond-head-info {
+    position: relative;
+}
+
+.diamond-head-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
+
+.hanamau-bay {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.hanamau-info {
+    position: relative;
+}
+
+.hanamau-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 420px;
+}
+
+.pearl-harbor-image {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.pearl-harbor-info {
+    position: relative;
+}
+
+.pearl-harbor-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 420px;
+}
+
+.koko-head-image {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.koko-head-info {
+    position: relative;
+}
+
+.koko-head-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 420px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion.active + .panel {
+    max-height: 500px;
 }
