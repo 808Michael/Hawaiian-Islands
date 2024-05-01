@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
     const accordions = document.querySelectorAll('.accordion');
 
