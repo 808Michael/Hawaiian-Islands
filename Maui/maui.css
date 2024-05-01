@@ -3,29 +3,141 @@ html, body {
     padding: 0;
 }
 
-.container {
-    position: relative;
-    background-image: url('Maui.jpeg');
-    background-size: 450px 400px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    font-family: Arial, sans-serif;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .title-box {
     position: absolute;
-    top: 0px;
-    left: 449px;
-    width: calc(100% - 100px);
+    top: 0;
+    left: 0;
+    width: 100vw;
     border: 2px solid #2c3e50;
     padding: 20px;
     margin: 0;
     background-color: #FC46AA;
+    box-sizing: border-box;
+}
+
+.maui-image {
+    display: block;
+    margin-top: 107px;
+}
+
+.location-image {
+    position: absolute;
+    top: 107px;
+    left: 40%
+}
+
+.lokelani-rose {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: -15px;
+}
+
+.haleakala {
+    width: 400px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.haleakala-info {
+    position: relative;
+}
+
+.haleakala-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 330px;
+    left: 420px;
+}
+
+.kings-highway {
+    width: 400px;
+    height: auto;
+    margin-top: 200px;
+    position: relative;
+    left: 0px;
+}
+
+.kings-highway-info {
+    position: relative;
+}
+
+.king-highway-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
+
+.ocean-center {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.ocean-center-info {
+    position: relative;
+}
+
+.ocean-center-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 70px;
+    left: 420px;
+}
+
+.nakalele {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.nakalele-info {
+    position: relative;
+}
+
+.nakalele-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 80px;
+    left: 420px;
+}
+
+.wainapanapa-image {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.wainapanapa-info {
+    position: relative;
+}
+
+.wainapanapa-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 420px;
 }
 
 h1 {
@@ -35,7 +147,17 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
     left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion.active + .panel {
+    max-height: 500px;
 }
