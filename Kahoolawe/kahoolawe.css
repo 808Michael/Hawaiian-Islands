@@ -3,30 +3,57 @@ html, body {
     padding: 0;
 }
 
-.container {
-    position: relative;
-    background-image: url('Kahoolawe.jpeg'), url('Kahoolawe_Location.png');
-    background-size: 450px 370px, 450px 380px; 
-    background-repeat: no-repeat;
-    background-position: 0 0, 0 100%;
-    font-family: Arial, sans-serif;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .title-box {
     position: absolute;
-    top: 0px;
-    left: 449px;
-    width: calc(100% - 492px);
-    max-width: calc(100% - 100px);
+    top: 0;
+    left: 0;
+    width: 100vw;
     border: 2px solid #2c3e50;
     padding: 20px;
     margin: 0;
     background-color: #CCCCCC;
+    box-sizing: border-box;
+}
+
+.kahoolawe-image {
+    display: block;
+    margin-top: 107px;
+}
+
+.kahoolawe-location-image {
+    position: absolute;
+    top: 107px;
+    left: 40%
+}
+
+.hinahina {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.waimea-canyon {
+    width: 400px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.waimea-canyon-info {
+    position: relative;
+}
+
+.waimea-canyon-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 330px;
+    left: 420px;
 }
 
 h1 {
@@ -36,7 +63,17 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
     left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion.active + .panel {
+    max-height: 500px;
 }
