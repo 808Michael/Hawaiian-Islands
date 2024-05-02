@@ -30,22 +30,21 @@ html, body {
     display: block;
     position: absolute;
     top: 107px;
-    right: 0px;
-    width: 400px;
-    height: auto;
+    right: -15px;
+    width: 300px;
 }
 
-.waimea-canyon {
-    width: 400px;
+.inaccessible {
+    width: 300px;
     height: auto;
     margin-top: 300px;
 }
 
-.waimea-canyon-info {
+.inaccessible-info {
     position: relative;
 }
 
-.waimea-canyon-text {
+.inaccessible-text {
     font-family: 'Georgia', serif;
     font-size: 1.3em;
     color: #444;
@@ -53,6 +52,113 @@ html, body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 330px;
+    left: 420px;
+}
+
+.ww2 {
+    width: 400px;
+    height: auto;
+    margin-top: 200px;
+    position: relative;
+    left: 0px;
+}
+
+.ww2-info {
+    position: relative;
+}
+
+.ww2-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
+
+.island-reserve {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.island-reserve-info {
+    position: relative;
+}
+
+.island-reserve-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 70px;
+    left: 420px;
+}
+
+.lua-makika {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.lua-makika-info {
+    position: relative;
+}
+
+.lua-makika-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 80px;
+    left: 420px;
+}
+
+.environment {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.environment-info {
+    position: relative;
+}
+
+.environment-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50px;
+    left: 420px;
+}
+
+.cultural-significance {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.cultural-significance-info {
+    position: relative;
+}
+
+.cultural-significance-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    color: #444;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50px;
     left: 420px;
 }
 
